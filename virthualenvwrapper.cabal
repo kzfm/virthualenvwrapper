@@ -29,3 +29,11 @@ executable rmvirthualenv
                      , directory
                      , filepath
                      , process
+
+executable lsvirthualenv
+  Main-is: lsvirthualenv.hs
+  Hs-source-dirs: src
+  build-depends:       base ==4.5.*
+                     , directory
+                     , filepath
+                     , process
