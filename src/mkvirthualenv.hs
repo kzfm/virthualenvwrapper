@@ -16,6 +16,6 @@ main = do
   createDirectoryIfMissing True vdir
   createDirectoryIfMissing True $ vdir </> newenv  
   setCurrentDirectory $ vdir </> newenv
-  _ <- system "virthualenv" 
+  _ <- system "virthualenv > /dev/null" 
   setCurrentDirectory $ currentDir
   return ()

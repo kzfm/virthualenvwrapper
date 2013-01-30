@@ -13,6 +13,7 @@ maintainer:          kerolinq@gmail.com
 category:            System
 build-type:          Simple
 cabal-version:       >=1.8
+data-files: virthualenvwrapper.sh
 
 executable mkvirthualenv
   Main-is: mkvirthualenv.hs
@@ -37,3 +38,4 @@ executable lsvirthualenv
                      , directory
                      , filepath
                      , process
+
