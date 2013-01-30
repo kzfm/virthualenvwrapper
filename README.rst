@@ -26,11 +26,11 @@ now, you can change your environment.
 Usage
 -----
 
-Making new environment
+Make a new environment
 
     mkvhenv [newenv_name]
 
-Switching environment
+Switch environment
 
     workhon [env_name]
 
