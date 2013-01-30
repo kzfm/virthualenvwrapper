@@ -14,13 +14,32 @@ Commands
 - rmvirthualenv
 - lsvirthualenv
 
-workhon
--------
+mkvhenv, workhon
+----------------
 
 add your .bashrc
 
-   function workhon(){ source $HOME/.virthualenv/$1/.virthualenv/bin/activate; }
+   source $HOME/Library/Haskell/ghc-7.4.2/lib/virthualenvwrapper-0.1.0.0/share/virthualenvwrapper.sh
 
 now, you can change your environment.
+
+Usage
+-----
+
+Making new environment
+
+    mkvhenv [newenv_name]
+
+Switching environment
+
+    workhon [env_name]
+
+Delete env
+
+    rmvirthualenv [env_name]
+
+List all environment
+
+    lsvirthualenv
 
 
